@@ -1,6 +1,14 @@
 {
+  "name":"tutorial",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
   }
 }
